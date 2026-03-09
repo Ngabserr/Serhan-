@@ -1,0 +1,306 @@
+body {
+  background: linear-gradient(135deg, #141e30, #243b55, #3a6073, #16222a);
+  font-family: 'Share Tech', sans-serif;
+  color: #383838;
+  margin: 20px;
+  min-height: 100vh;
+  background-size: 400% 400%;
+  animation: gradientBG 5s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.daftar-produk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.produk {
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Share Tech', sans-serif;
+}
+
+.produk img {
+  width: 175px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.produk h2,
+.produk h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 1px;
+  color: #1e2835;
+}
+
+.harga {
+  font-weight: bold;
+  color: #2ecc71;
+}
+
+.deskripsi {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: 'Share Tech', sans-serif;
+}
+
+
+
+h1 {
+  font-size: 50px;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: left;
+  padding: 0 100px;
+  background: linear-gradient(90deg, #ffffff, #fdfbfb, #f0f0f0, #e8e8e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  padding: 0 100px;
+  color: #ffffff;
+}
+
+
+
+p {
+  font-family: 'Share Tech', sans-serif;
+  color: #f5f5f5;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  text-align: justify;
+  font-size: 18px;
+  padding: 20px 100px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  gap: 20px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 25px;
+}
+
+.navbar ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #00c6ff;
+}
+
+
+
+.artikel {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  font-family: 'Share Tech', sans-serif;
+  line-height: 1.8;
+}
+
+.artikel .penulis {
+  font-style: italic;
+  color: #f5f5f5;
+  margin-bottom: 20px;
+}
+
+.artikel .sampul {
+  width: 180px;
+  float: right;
+  margin: 0 0 20px 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.artikel blockquote {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  font-style: normal; 
+  padding: 20px;
+  margin: 20px 0;
+  border-left: 4px solid #999;
+  color: #444;
+}
+
+
+.btn-kembali {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 16px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.btn-kembali:hover {
+  background-color: #004d99;
+}
+
+
+
+.formulir {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Share Tech', sans-serif;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000000;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+form button {
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px;
+  background-color: #f4f7f6;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.stat-card {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  min-width: 150px;
+}
+
+.counter {
+  display: block;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #2c3e50;
+  margin-bottom: 5px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.label {
+  color: #7f8c8d;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  font-family: 'Share Tech', sans-serif;
+}
+.card-buku {
+    background-color: #fff;
+    width: 100%;
+    max-width: 520px; /* Ukuran ideal untuk card video */
+    margin: 30px auto; /* Tengah + jarak antar card */
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+}
+
+.card-buku:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Rasio 16:9 */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    inset: 0; /* lebih clean dari top/left */
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.konten {
+    padding: 22px;
+}
+
+.konten h1 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.harga-buku {
+    font-size: 19px;
+    color: #e67e22;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.deskripsi {
+    font-size: 15px;
+    color: #ececec;
+    line-height: 1.7;
+}
